@@ -1,0 +1,6 @@
+{
+  "name": "RealestateRoyal Architecture",
+  "description": "Premium editorial architecture and luxury home construction studio website",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
