@@ -61,10 +61,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenModal }) => {
       {/* CTA Button */}
       <div className="hidden md:block">
         <button
-          onClick={() => onOpenModal('faq')}
+          onClick={() => onOpenModal('contact')}
           className="bg-[#050505] hover:bg-[#222222] text-white text-[12px] font-bold tracking-wider px-5 py-2.5 rounded-[3px] transition-all shadow-xs cursor-pointer active:scale-98 uppercase font-sans border border-white/10"
         >
-          Studio FAQ
+          Request a Quote
         </button>
       </div>
 
@@ -117,10 +117,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenModal }) => {
 
             <div className="pt-8 border-t border-gray-100">
               <button
-                onClick={() => handleNavClick('faq')}
+                onClick={() => handleNavClick('contact')}
                 className="w-full bg-[#050505] text-white text-xs font-bold uppercase tracking-wider py-3 rounded-[3px] text-center font-sans cursor-pointer"
               >
-                Studio FAQ & Help
+                Request a Quote
               </button>
             </div>
           </div>
