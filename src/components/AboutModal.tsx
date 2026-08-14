@@ -1,6 +1,7 @@
 import React from 'react';
 import { X, Award, ShieldCheck, Compass, CheckCircle2, ArrowRight, Building2, Layers, Users } from 'lucide-react';
 import { siteConfig } from '../data/siteData';
+import { StatsCounterSection } from './StatsCounterSection';
 
 interface AboutModalProps {
   isOpen: boolean;
@@ -66,6 +67,9 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose, onOpenC
               By maintaining in-house master builders, registered structural engineers, quantity surveyors, and interior architects under one studio roof, we deliver fixed-price guarantees, uncompromising material purity, and timeless structural longevity.
             </p>
           </div>
+
+          {/* Performance Counter Section */}
+          <StatsCounterSection variant="modal" />
 
           {/* Three Architectural Pillars Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

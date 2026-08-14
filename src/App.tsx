@@ -5,6 +5,7 @@ import { IntroductionSection } from './components/IntroductionSection';
 import { InclusionsSection } from './components/InclusionsSection';
 import { RecentWorkSection } from './components/RecentWorkSection';
 import { GoogleReviewsSection } from './components/GoogleReviewsSection';
+import { StatsCounterSection } from './components/StatsCounterSection';
 import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 import { InclusionsModal } from './components/InclusionsModal';
@@ -40,6 +41,9 @@ export default function App() {
 
         {/* Asymmetric Editorial Introduction Statement */}
         <IntroductionSection onOpenContact={() => handleOpenModal('contact')} />
+
+        {/* Studio Statistics & Counter Section */}
+        <StatsCounterSection variant="homepage" />
 
         {/* Featured Inclusions Section */}
         <InclusionsSection onOpenInclusions={() => handleOpenModal('inclusions')} />
